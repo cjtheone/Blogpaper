@@ -10,3 +10,5 @@ params:
   description: Example site for the Hugo's Blogpaper theme
 title: Blogpaper
 theme: Blogpaper
+taxonomies:
+  series: series
