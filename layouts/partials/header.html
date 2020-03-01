@@ -13,9 +13,8 @@
     <h1 class="header__title">{{ .Title }}</h1>
 
     {{- $subtitle := .Params.subtitle | default "" -}}
-      {{- with $subtitle }}
-        <div class="header__subtitle metadata">{{ . | markdownify }}</div>
-      {{- end }}
+    {{- with $subtitle }}
+      <div class="header__subtitle metadata">{{ . | markdownify }}</div>
     {{- end }}
   </div>
 </header>
