@@ -10,6 +10,8 @@ tags:
 banner:
   caption: sergee bee
   href: https://unsplash.com/photos/bIQiMWxX_WU
+images:
+  - posts/rich-content/banner.jpg
 ---
 
 Hugo ships with several [Built-in Shortcodes](https://gohugo.io/content-management/shortcodes/#use-hugo-s-built-in-shortcodes) for rich content, along with a [Privacy Config](https://gohugo.io/about/hugo-and-gdpr/) and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.

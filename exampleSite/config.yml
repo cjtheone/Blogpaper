@@ -8,6 +8,8 @@ menu:
       url: /about
 params:
   description: Example site for the Hugo's Blogpaper theme
+  # images:
+  # - banner.jpg
 title: Blogpaper
 theme: Blogpaper
 taxonomies:

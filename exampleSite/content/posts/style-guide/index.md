@@ -18,6 +18,8 @@ series:
 banner:
   caption: Alexey Topolyanskiy
   href: https://unsplash.com/photos/-oWyJoSqBRM
+images:
+  - posts/style-guide/banner.jpg
 ---
 
 The Style Guide provides you with a set of standards for the writing and design of theme posts and pages, either for

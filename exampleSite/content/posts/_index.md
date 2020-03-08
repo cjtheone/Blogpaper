@@ -9,4 +9,6 @@ title: Posts
 author: Hugo Authors
 tags:
   - index
+images:
+  - banner.jpg
 ---
