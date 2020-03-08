@@ -12,7 +12,7 @@
     {{- with .Page.Site.Params.images -}}
       {{- $banner = merge $banner (dict "resource" (index . 0)) -}}
     {{- end -}}
-    {{- with .Page.Parent.Params.images -}}
+    {{- with .Parent.Params.images -}}
       {{- $banner = merge $banner (dict "resource" (index . 0)) -}}
     {{- end -}}
   {{- end -}}
