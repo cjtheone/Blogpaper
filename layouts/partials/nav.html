@@ -1,6 +1,7 @@
 <nav class="nav">
   <div class="nav__content container metadata">
     <div class="nav__home">
+      {{- if not .IsHome -}}
       <a href="{{ .Site.Home.RelPermalink }}" >
         {{- with .Site.Params.navHome -}}
           {{- . -}}
@@ -8,6 +9,7 @@
           {{- .Site.Title -}}
         {{- end -}}
       </a>
+      {{- end -}}
     </div>
 
     {{- with .Site.Menus.main }}

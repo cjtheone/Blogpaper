@@ -8,7 +8,7 @@
 
   <title>
   {{- block "title" . -}}
-    {{- with .Title -}}{{- . }} | {{ end -}}
+    {{- if not .IsHome -}}{{- .Title }} | {{ end -}}
     {{- .Site.Title -}}
   {{- end -}}
   </title>
