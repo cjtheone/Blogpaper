@@ -1,6 +1,6 @@
 <figure class="banner">
   {{- if .page_href -}}
-  <a href="{{ $.page_href }}">
+  <a href="{{ $.page_href }}" class="banner">
   {{- end -}}
 
   <img src="{{ .resource | relURL }}" alt="{{ .alt }}" />
