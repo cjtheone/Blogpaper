@@ -21,8 +21,9 @@
   --color-metadata-rgb: #{to-rgb(#666)};
   --color-link-underline-opacity: 0.5;
 
-  --font-family: Georgia, "Palatino Linotype", "Book Antiqua", Palatino, "Times New Roman", Times, serif;
-  --font-family-metadata: system-font;
+  --font-family: serif;
+  // --font-family: Georgia, "Palatino Linotype", "Book Antiqua", Palatino, "Times New Roman", Times, serif;
+  // --font-family-metadata: serif;
   --font-size: 2rem;
   --font-line-height: 2;
 
@@ -71,13 +72,6 @@
   --footer-margin-top: var(--header--main-margin-bottom);
 }
 
-// From https://github.com/jonathantneal/system-font-css
-@font-face {
-  font-family: system-font;
-  font-style: normal;
-  font-weight: 400;
-  src: local(".SFNSText-Regular"), local(".HelveticaNeueDeskInterface-Regular"), local(".LucidaGrandeUI"), local("Segoe UI"), local("Ubuntu"), local("Roboto-Regular"), local("DroidSans"), local("Tahoma");
-}
 
 /* Page */
 
@@ -94,7 +88,7 @@ html {
 body {
   margin: 0;
   overflow-x: hidden; // Hide .full-width
-  font-family: var(--font-family);
+  // font-family: var(--font-family);
   font-size: var(--font-size);
   line-height: var(--font-line-height);
   background-color: var(--color-background);
@@ -142,7 +136,7 @@ a {
 }
 
 .metadata {
-  font-family: var(--font-family-metadata);
+  // font-family: var(--font-family-metadata);
   color: var(--color-metadata);
   @include set-links-color(var(--color-metadata-rgb), var(--color-link-underline-opacity));
 }
